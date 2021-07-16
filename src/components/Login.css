@@ -1,0 +1,37 @@
+
+
+h1{
+    
+    font-size:xx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(14, 104, 62);
+    font-style:unset;
+    border: 2px;
+    font-weight:bolder;
+    position: relative;
+    font-style: oblique;
+    }
+
+.row{
+    background-position: center;
+    background-attachment:scroll;
+    position:initial;
+    background-size:cover;
+    margin: auto;
+   
+    
+}
+
+
+
+.mt-5
+{   
+    margin-top: 90px;
+    position:relative;
+    margin-left: 80mm;
+    margin-right: 80mm;
+    max-width:initial;
+    max-height: 0cm;
+    border: 15cm;
+
+}
