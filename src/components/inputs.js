@@ -1,6 +1,5 @@
-import React from 'react';
-import  { Component } from "react";
-import countrises from "./countrises";
+import React, { Component } from "react";
+import countries from "./countrises";
 
  function inputs() {
   const [nom, setNom] = React.useState("");
