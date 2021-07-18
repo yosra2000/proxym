@@ -1,0 +1,30 @@
+h1{
+    background-color: rgba(241, 231, 231, 0.623);
+    font-size:xx-large;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    font-style:unset;
+    border: 20mm;
+    font-weight:bold;
+    
+    }
+    .row{
+        background-color:rgb(255, 255, 255);
+        background-position: center;
+        position:static;
+        background-size:80%;
+        margin:10%;
+       
+        
+    }
+    .mt-5
+    {
+        
+   
+        margin-top: 180px;
+        margin-left: 80mm;
+        margin-right: 80mm;
+        max-width:initial;
+        max-height: 70cm;
+        border: 0cm;
+    }
