@@ -1,7 +1,9 @@
 import React from 'react';
 import {Button, Col, Container, Form, Row} from "react-bootstrap";
 import { Component } from 'react';
-import './LoginPage.css'
+import './LoginPage.css';
+import { Link } from 'react-router-dom';
+
 
 const LoginPage = () => {
     return (
@@ -21,9 +23,12 @@ const LoginPage = () => {
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
 
-                            <Button variant="success btn-block" type="submit">
-                                Login
-                            </Button>
+                          
+                                <li>
+                            <Link to='/Inputs'>
+                                 Login
+                            </Link> </li> 
+                            
                         </Form>
                     </Col>
                     </center>
