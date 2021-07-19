@@ -13,10 +13,10 @@
     max-width: 50%;
     max-width: 350px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    border: 1px solid #18dcff;
-    background: #363434;
+    border: 1px solid #070707;
+    background: #f8f5f5;
     padding: 0 30px 10px;
-    box-shadow: 0px 4px 10px rgba(51, 51, 51, 0.637);
+    box-shadow: 0px 4px 10px rgba(161, 127, 127, 0.637);
   }
   h2 {
     margin-top: 35px;
@@ -31,7 +31,7 @@
     background: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.1rem;
-    border-bottom: 1px solid#cec950;
+    border-bottom: 1px solid#0a0a0a;
     color: #f4f5f7;
   }
   input::placeholder, 
@@ -103,7 +103,7 @@
   .button {
     font-size: 1.3rem;
     margin-top: 15px;
-    color: #cec950;
+    color: #1d2bec;
     border: none;
     cursor: pointer;
     transition: .2s;

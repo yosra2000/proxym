@@ -14,20 +14,21 @@ const LoginPage = () => {
                     <Col lg={5} md={6} sm={12} className="p-5 m-auto shadow-sm rounded-lg">
                         <Form>
                             <Form.Group controlId="formBasicEmail">
-                                <Form.Label>Email address</Form.Label>
+                                <Form.Label>Email address : </Form.Label>
                                 <Form.Control type="email" placeholder="Enter email" />
                             </Form.Group>
 
                             <Form.Group controlId="formBasicPassword">
-                                <Form.Label>Password</Form.Label>
+                                <Form.Label>Password : </Form.Label>
                                 <Form.Control type="password" placeholder="Password" />
                             </Form.Group>
 
                           
-                                <li>
+                            <button>
                             <Link to='/Inputs'>
                                  Login
-                            </Link> </li> 
+                            </Link> </button> 
+                            
                             
                         </Form>
                     </Col>

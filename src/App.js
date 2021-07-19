@@ -1,16 +1,16 @@
 import React from "react";
 import LoginPage from "./components/LoginPage";
 import {Route, Switch} from 'react-router-dom';
-import Inputs from "./components/inputs";
+import Inputs from "./components/Inputs.js";
 
 function App() {
   return (
     <div>
       <Switch>
-     <Route path="/">
+     <Route exact path="/">
      <LoginPage/>
      </Route>
-     <Route path='/inputs' component={Inputs}> 
+     <Route path='/inputs' > 
      <Inputs/>
      </Route>
      </Switch>
@@ -19,3 +19,4 @@ function App() {
 }
 
 export default App;
+
