@@ -3,6 +3,14 @@ import {Button, Col, Container, Form, Row} from "react-bootstrap";
 import { Component } from 'react';
 import './LoginPage.css';
 import { Link } from 'react-router-dom';
+import customHttpClient from '../Controlers/service';
+
+
+const entries =  customHttpClient.get("https://api.publicapis.org/entries").then(result => console.log('call free api ',result))
+
+useEffect(()=> {
+    console.log('done !!!!!')
+},entries)
 
 import customHttpClient from '../Controlers/service';
 

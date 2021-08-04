@@ -74,7 +74,22 @@ const customHttpClient = {
 
 
 
-export default  customHttpClient ;
+
+/**
+ * create a GET http call via axios by pass server url and pass params as options.
+ *
+ * @param url
+ * @param params
+ */
+const get  = (url,params ) => {return  axios.get(url ,{params })};
+
+const customHttpClient = {
+    get
+}
+
+export default customHttpClient;
+
+
 
 
 
