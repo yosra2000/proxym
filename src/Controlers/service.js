@@ -1,6 +1,7 @@
 import React , { Component } from 'react';
-import axios from 'axios';
+const axios = require('axios');
 
+/*
 //Get request 
 axios
 .get('https://jsonplaceholder.typicode.com/posts')
@@ -31,8 +32,49 @@ axios.delete('https://jsonplaceholder.typicode.com/todos/1')
 .then(res => console.log(res))
 .catch(err => console.error(err));
 
+/*
+
+/* create a GET http call via axios by pass server url and pass params as options.
+*@param url
+ @param params
+*/
+
+const get=(url,params ) => {return  axios.get(url ,{params })};
+
+const post = (url,body)=> {
+    console.log('post working')
+    return axios.post(url,{body})
+  }
+
+const put=( url,id, body)=> {
+
+    console.log(' patch working')
+    return axios.put(url,id, {body})
+
+}
+
+const suprimer=( url,id)=> {
+
+    console.log(' patch working')
+    return axios.delete(url,id, )
+
+}
 
 
+const customHttpClient = {
+   get,
+   post,
+   put,
+   suprimer
+
+
+}
+
+
+
+
+
+export default  customHttpClient ;
 
 
 
